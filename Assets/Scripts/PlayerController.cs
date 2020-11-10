@@ -85,10 +85,11 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("JumpFall", true);
             animator.SetBool("JumpStart", false);
         }
-        
+
         // LEFT
         if (Input.GetKey(KeyCode.LeftArrow))
         {
+            if (IsGrounded()) { animator.SetBool("JumpFall", false); }
             animator.SetFloat("MoveSpeed", Mathf.Abs(moveSpeed));
 
             FlipPlayer(-moveSpeed);
@@ -99,6 +100,7 @@ public class PlayerController : MonoBehaviour
         // RIGHT
         else if (Input.GetKey(KeyCode.RightArrow))
         {
+            if (IsGrounded()) { animator.SetBool("JumpFall", false); }
             animator.SetFloat("MoveSpeed", Mathf.Abs(moveSpeed));
 
             FlipPlayer(+moveSpeed);
@@ -110,7 +112,6 @@ public class PlayerController : MonoBehaviour
         else if (IsGrounded())
         {
             animator.SetFloat("MoveSpeed", 0);
-            animator.SetBool("JumpFall", false);
 
             rigidbody2d.velocity = new Vector2(0, rigidbody2d.velocity.y);
         }
