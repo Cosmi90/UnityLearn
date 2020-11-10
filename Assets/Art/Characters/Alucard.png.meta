@@ -1,0 +1,3008 @@
+fileFormatVersion: 2
+guid: 675c25167be22594f903ea4800b001d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3711324143743909670
+    second: Alucard2_0
+  - first:
+      213: -6622158888883215516
+    second: Alucard2_1
+  - first:
+      213: 8052596834311402369
+    second: Alucard2_2
+  - first:
+      213: 3640561760634995678
+    second: Alucard2_3
+  - first:
+      213: -2746547598759941412
+    second: Alucard2_4
+  - first:
+      213: -7844158591823786198
+    second: Alucard2_5
+  - first:
+      213: -6109857185204061016
+    second: Alucard2_6
+  - first:
+      213: 7362313536054959013
+    second: Alucard2_7
+  - first:
+      213: -6568694912853525973
+    second: Alucard2_8
+  - first:
+      213: 3581529427547887284
+    second: Alucard2_9
+  - first:
+      213: 861143905686040407
+    second: Alucard2_10
+  - first:
+      213: 4217996267745423266
+    second: Alucard2_11
+  - first:
+      213: -2545034759543032532
+    second: Alucard2_12
+  - first:
+      213: -4921189717899921050
+    second: Alucard2_13
+  - first:
+      213: -7607812939909254238
+    second: Alucard2_14
+  - first:
+      213: -7078912317586958776
+    second: Alucard2_15
+  - first:
+      213: 5621944297552111910
+    second: Alucard2_16
+  - first:
+      213: 4461512742486922191
+    second: Alucard2_17
+  - first:
+      213: -6290214791230745346
+    second: Alucard2_18
+  - first:
+      213: 6229280549876475743
+    second: Alucard2_19
+  - first:
+      213: -3054043396421527942
+    second: Alucard2_20
+  - first:
+      213: -8488956680566517861
+    second: Alucard2_21
+  - first:
+      213: 205339993159869579
+    second: Alucard2_22
+  - first:
+      213: 6057847813673960217
+    second: Alucard2_23
+  - first:
+      213: 7332278211814224398
+    second: Alucard2_24
+  - first:
+      213: 4410068549497863428
+    second: Alucard2_25
+  - first:
+      213: -4302710438615328712
+    second: Alucard2_26
+  - first:
+      213: 2170089169043961895
+    second: Alucard2_27
+  - first:
+      213: -846064850213813811
+    second: Alucard2_28
+  - first:
+      213: 1164940386997896766
+    second: Alucard2_29
+  - first:
+      213: 3076131178832778340
+    second: Alucard2_30
+  - first:
+      213: -1720810229042613574
+    second: Alucard2_31
+  - first:
+      213: -3443863070604688788
+    second: Alucard2_32
+  - first:
+      213: -7487104786198531146
+    second: Alucard2_33
+  - first:
+      213: 1657969565036460856
+    second: Alucard2_34
+  - first:
+      213: -8612507001092490118
+    second: Alucard2_35
+  - first:
+      213: -8131522797032886950
+    second: Alucard2_36
+  - first:
+      213: 7829366610037147410
+    second: Alucard2_37
+  - first:
+      213: -5377549111820975279
+    second: Alucard2_38
+  - first:
+      213: 1458572027892394376
+    second: Alucard2_39
+  - first:
+      213: 4425060198921592263
+    second: Alucard2_40
+  - first:
+      213: 6128263187606755205
+    second: Alucard2_41
+  - first:
+      213: -1275912380135093576
+    second: Alucard2_42
+  - first:
+      213: -3984964882703105759
+    second: Alucard2_43
+  - first:
+      213: -7207719071846491489
+    second: Alucard2_44
+  - first:
+      213: 8080203289686575760
+    second: Alucard2_45
+  - first:
+      213: -6708011758374646850
+    second: Alucard2_46
+  - first:
+      213: 622792943318421149
+    second: Alucard2_47
+  - first:
+      213: -7216922408247317766
+    second: Alucard2_48
+  - first:
+      213: -4122087558139591008
+    second: Alucard2_49
+  - first:
+      213: -8450250295647869309
+    second: Alucard2_50
+  - first:
+      213: -7113421575042525602
+    second: Alucard2_51
+  - first:
+      213: 7062018865009801085
+    second: Alucard2_52
+  - first:
+      213: 2506769487526682386
+    second: Alucard2_53
+  - first:
+      213: 4993842229186096008
+    second: Alucard2_54
+  - first:
+      213: 5200916348416344692
+    second: Alucard2_55
+  - first:
+      213: -3091104290692323836
+    second: Alucard2_56
+  - first:
+      213: -2682818988229622941
+    second: Alucard2_57
+  - first:
+      213: 3724243140625948863
+    second: Alucard2_58
+  - first:
+      213: -7024652166490511132
+    second: Alucard2_59
+  - first:
+      213: 6518208991741573189
+    second: Alucard2_60
+  - first:
+      213: -8874730105535558416
+    second: Alucard2_61
+  - first:
+      213: -5561592337534047427
+    second: Alucard2_62
+  - first:
+      213: 7068095550596088429
+    second: Alucard2_63
+  - first:
+      213: -192377641619009871
+    second: Alucard2_64
+  - first:
+      213: 2741984431959679066
+    second: Alucard2_65
+  - first:
+      213: 8906607703377668678
+    second: Alucard2_66
+  - first:
+      213: -7035946535060028757
+    second: Alucard2_67
+  - first:
+      213: -3265206677061011296
+    second: Alucard2_68
+  - first:
+      213: 226124579820120917
+    second: Alucard2_69
+  - first:
+      213: -6786600979441705452
+    second: Alucard2_70
+  - first:
+      213: 3667563794763313250
+    second: Alucard2_71
+  - first:
+      213: 3742860418125470895
+    second: Alucard2_72
+  - first:
+      213: 2593706760254962030
+    second: Alucard2_73
+  - first:
+      213: 6922401461324169302
+    second: Alucard2_74
+  - first:
+      213: 4225495101804594443
+    second: Alucard2_75
+  - first:
+      213: -3120542201056021588
+    second: Alucard2_76
+  - first:
+      213: 3582429099836326861
+    second: Alucard2_77
+  - first:
+      213: -1162679142688755166
+    second: Alucard2_78
+  - first:
+      213: -3029277818302580730
+    second: Alucard2_79
+  - first:
+      213: 4849314553568724862
+    second: Alucard2_80
+  - first:
+      213: -7857484632117221213
+    second: Alucard2_81
+  - first:
+      213: 5105600887049491234
+    second: Alucard2_82
+  - first:
+      213: -2817470855385807148
+    second: Alucard2_83
+  - first:
+      213: 808360066373960991
+    second: Alucard2_84
+  - first:
+      213: -9174608025307693042
+    second: Alucard2_85
+  - first:
+      213: 3062458029169842282
+    second: Alucard2_86
+  - first:
+      213: -5817315193129124574
+    second: Alucard2_87
+  - first:
+      213: 4207773919445408207
+    second: Alucard2_88
+  - first:
+      213: 8908973642658056039
+    second: Alucard2_89
+  - first:
+      213: -5145520673047505980
+    second: Alucard2_90
+  - first:
+      213: 309951762762896087
+    second: Alucard2_91
+  - first:
+      213: -1394330121202701111
+    second: Alucard_0
+  - first:
+      213: 3690610886587316888
+    second: Alucard_0
+  - first:
+      213: -8545056403861419184
+    second: Alucard_1
+  - first:
+      213: -6436305376329660271
+    second: Alucard_2
+  - first:
+      213: -8061697692757906899
+    second: Alucard_3
+  - first:
+      213: 2718247396857349068
+    second: Alucard_4
+  - first:
+      213: -5596496772327445685
+    second: Alucard_5
+  - first:
+      213: -8804673055826023927
+    second: Alucard_6
+  - first:
+      213: -4868339545602854883
+    second: Alucard_7
+  - first:
+      213: 5219611538295212920
+    second: Alucard_8
+  - first:
+      213: -870354202229235367
+    second: Alucard_9
+  - first:
+      213: 8137480185662320181
+    second: Alucard_10
+  - first:
+      213: 5208751168989737263
+    second: Alucard_11
+  - first:
+      213: 5690835736468475697
+    second: Alucard_12
+  - first:
+      213: 2602003927209275455
+    second: Alucard_13
+  - first:
+      213: 6794188151750601738
+    second: Alucard_14
+  - first:
+      213: 495203188728190692
+    second: Alucard_15
+  - first:
+      213: -6775985889247158627
+    second: Alucard_16
+  - first:
+      213: 8310245353892052774
+    second: Alucard_17
+  - first:
+      213: -6213004703782240682
+    second: Alucard_18
+  - first:
+      213: 8667807155055222784
+    second: Alucard_19
+  - first:
+      213: 6498961107321855259
+    second: Alucard_20
+  - first:
+      213: 2109146365183307200
+    second: Alucard_21
+  - first:
+      213: 566479193136856958
+    second: Alucard_22
+  - first:
+      213: 1242982844786684801
+    second: Alucard_23
+  - first:
+      213: 262496203327678529
+    second: Alucard_24
+  - first:
+      213: -8946006684014070600
+    second: Alucard_25
+  - first:
+      213: -3107266225817900391
+    second: Alucard_26
+  - first:
+      213: -2828893907733205280
+    second: Alucard_27
+  - first:
+      213: 2964738361854442065
+    second: Alucard_28
+  - first:
+      213: 4634913334244997410
+    second: Alucard_29
+  - first:
+      213: 8119543402489950319
+    second: Alucard_30
+  - first:
+      213: -2905605981968897255
+    second: Alucard_31
+  - first:
+      213: 6717177703654861
+    second: Alucard_32
+  - first:
+      213: 7513121516007703300
+    second: Alucard_33
+  - first:
+      213: -6319832882762634833
+    second: Alucard_34
+  - first:
+      213: 7712586299281978578
+    second: Alucard_35
+  - first:
+      213: 8585733236093257343
+    second: Alucard_36
+  - first:
+      213: 4455647371224211096
+    second: Alucard_37
+  - first:
+      213: -1609196634288359791
+    second: Alucard_38
+  - first:
+      213: 8347483041572707723
+    second: Alucard_39
+  - first:
+      213: -774292337799136202
+    second: Alucard_40
+  - first:
+      213: -7357375505334853985
+    second: Alucard_41
+  - first:
+      213: 3817890456763572942
+    second: Alucard_42
+  - first:
+      213: 8026192905520419818
+    second: Alucard_43
+  - first:
+      213: 863950943539358902
+    second: Alucard_44
+  - first:
+      213: 2912130167684043697
+    second: Alucard_45
+  - first:
+      213: 3717705683811139965
+    second: Alucard_46
+  - first:
+      213: 4622110847791156402
+    second: Alucard_47
+  - first:
+      213: -334933500821968772
+    second: Alucard_48
+  - first:
+      213: 5633793361492057183
+    second: Alucard_49
+  - first:
+      213: 7168274400877355777
+    second: Alucard_50
+  - first:
+      213: -7028386320827563280
+    second: Alucard_51
+  - first:
+      213: 4255342064102780759
+    second: Alucard_52
+  - first:
+      213: -70446704409128438
+    second: Alucard_53
+  - first:
+      213: 5613562090126015314
+    second: Alucard_54
+  - first:
+      213: -8960732947281135953
+    second: Alucard_55
+  - first:
+      213: -1715360344391586802
+    second: Alucard_56
+  - first:
+      213: -3828752971697897897
+    second: Alucard_57
+  - first:
+      213: 7844352299038308585
+    second: Alucard_58
+  - first:
+      213: 6691831844724293144
+    second: Alucard_59
+  - first:
+      213: -6231337765630320788
+    second: Alucard_60
+  - first:
+      213: -6254390417771883790
+    second: Alucard_61
+  - first:
+      213: 5862723824431465107
+    second: Alucard_62
+  - first:
+      213: -2742949289742761766
+    second: Alucard_63
+  - first:
+      213: -4784580003476318898
+    second: Alucard_64
+  - first:
+      213: -3371314723300887676
+    second: Alucard_65
+  - first:
+      213: 6280078420656634619
+    second: Alucard_66
+  - first:
+      213: 1311470889771367204
+    second: Alucard_67
+  - first:
+      213: 3576141607813983193
+    second: Alucard_68
+  - first:
+      213: -560619929916162173
+    second: Alucard_69
+  - first:
+      213: -1553708890372127143
+    second: Alucard_70
+  - first:
+      213: 6701020306385407085
+    second: Alucard_71
+  - first:
+      213: 8536572140106784573
+    second: Alucard_72
+  - first:
+      213: 3077931506888241077
+    second: Alucard_73
+  - first:
+      213: -9032226992604074022
+    second: Alucard_74
+  - first:
+      213: 1055524634555050464
+    second: Alucard_75
+  - first:
+      213: 8540642465111265143
+    second: Alucard_76
+  - first:
+      213: 4503022673976807932
+    second: Alucard_77
+  - first:
+      213: -7733375103277149927
+    second: Alucard_78
+  - first:
+      213: -1717632576686973515
+    second: Alucard_79
+  - first:
+      213: -3071118780602048927
+    second: Alucard_80
+  - first:
+      213: 3094711423843269134
+    second: Alucard_81
+  - first:
+      213: 2117812037261787152
+    second: Alucard_82
+  - first:
+      213: 2696931779400156343
+    second: Alucard_83
+  - first:
+      213: -2661185409610958960
+    second: Alucard_84
+  - first:
+      213: 5596877487539711197
+    second: Alucard_85
+  - first:
+      213: 7479805241725075983
+    second: Alucard_86
+  - first:
+      213: -7131909911819658515
+    second: Alucard_87
+  - first:
+      213: -6248616458886562071
+    second: Alucard_88
+  - first:
+      213: -1896193131275611873
+    second: Alucard_89
+  - first:
+      213: -205081605514428264
+    second: Alucard_90
+  - first:
+      213: -8381425438948413816
+    second: Alucard_91
+  - first:
+      213: -6362225142853245374
+    second: Alucard_1
+  - first:
+      213: 614747772994285038
+    second: Alucard_2
+  - first:
+      213: -4275097690801296947
+    second: Alucard_3
+  - first:
+      213: 7513275673556932018
+    second: Alucard_4
+  - first:
+      213: 8312267793506731222
+    second: Alucard_5
+  - first:
+      213: -7518474936900325244
+    second: Alucard_6
+  - first:
+      213: -4604381914350970492
+    second: Alucard_7
+  - first:
+      213: 8614929120007195707
+    second: Alucard_8
+  - first:
+      213: 286711584583109368
+    second: Alucard_9
+  - first:
+      213: -4499829407929773294
+    second: Alucard_10
+  - first:
+      213: -8126771613991507124
+    second: Alucard_11
+  - first:
+      213: -5680871929210696025
+    second: Alucard_12
+  - first:
+      213: 859376943658890772
+    second: Alucard_13
+  - first:
+      213: 3307744087812434908
+    second: Alucard_14
+  - first:
+      213: -7538572050324381673
+    second: Alucard_15
+  - first:
+      213: 8554830135797123160
+    second: Alucard_16
+  - first:
+      213: -7907467292773747091
+    second: Alucard_17
+  - first:
+      213: 8968645045874097776
+    second: Alucard_18
+  - first:
+      213: -6035307476792732345
+    second: Alucard_19
+  - first:
+      213: 972556948588021538
+    second: Alucard_20
+  - first:
+      213: 2912034642687011980
+    second: Alucard_21
+  - first:
+      213: 6298445399397602663
+    second: Alucard_22
+  - first:
+      213: -7840944554478590630
+    second: Alucard_23
+  - first:
+      213: 5767194102118142902
+    second: Alucard_24
+  - first:
+      213: -9026419608209895829
+    second: Alucard_25
+  - first:
+      213: 6779660088678635975
+    second: Alucard_26
+  - first:
+      213: 3797430171446098872
+    second: Alucard_27
+  - first:
+      213: 3088753254351052557
+    second: Alucard_28
+  - first:
+      213: 2047943658190141483
+    second: Alucard_29
+  - first:
+      213: 1505111211516743443
+    second: Alucard_30
+  - first:
+      213: 8583320587644265804
+    second: Alucard_31
+  - first:
+      213: -4629383083606525735
+    second: Alucard_32
+  - first:
+      213: 2602125919006057427
+    second: Alucard_33
+  - first:
+      213: -4272270853447606690
+    second: Alucard_34
+  - first:
+      213: -3974531858131995527
+    second: Alucard_35
+  - first:
+      213: 5381533595862609106
+    second: Alucard_36
+  - first:
+      213: -5723800309305443201
+    second: Alucard_37
+  - first:
+      213: -6981179300896622957
+    second: Alucard_38
+  - first:
+      213: -698449009692552484
+    second: Alucard_39
+  - first:
+      213: 6038535955975335348
+    second: Alucard_40
+  - first:
+      213: 1218039608260099977
+    second: Alucard_41
+  - first:
+      213: -7012639560691224886
+    second: Alucard_42
+  - first:
+      213: 596798185309019557
+    second: Alucard_43
+  - first:
+      213: -6242602495472936885
+    second: Alucard_44
+  - first:
+      213: 706506984850368568
+    second: Alucard_45
+  - first:
+      213: -6811184539175691017
+    second: Alucard_46
+  - first:
+      213: -6655892632412774322
+    second: Alucard_47
+  - first:
+      213: 2755405020900516294
+    second: Alucard_48
+  - first:
+      213: 3273717830140721304
+    second: Alucard_49
+  - first:
+      213: -8977076099752150704
+    second: Alucard_50
+  - first:
+      213: 1713239785850224405
+    second: Alucard_51
+  - first:
+      213: 2905185901764283617
+    second: Alucard_52
+  - first:
+      213: 5317930914573073928
+    second: Alucard_53
+  - first:
+      213: -9219551452669981292
+    second: Alucard_54
+  - first:
+      213: -3113431275219051831
+    second: Alucard_55
+  - first:
+      213: 154311063545317927
+    second: Alucard_56
+  - first:
+      213: 6705474344362665923
+    second: Alucard_57
+  - first:
+      213: -8420648122795259281
+    second: Alucard_58
+  - first:
+      213: -1184132189037472735
+    second: Alucard_59
+  - first:
+      213: -6155676106435988210
+    second: Alucard_60
+  - first:
+      213: 2933391201329975125
+    second: Alucard_61
+  - first:
+      213: -7174709954092234591
+    second: Alucard_62
+  - first:
+      213: -7934199572254701010
+    second: Alucard_63
+  - first:
+      213: -1967326265117632805
+    second: Alucard_64
+  - first:
+      213: 5424537760868927450
+    second: Alucard_65
+  - first:
+      213: -2356642800162762645
+    second: Alucard_66
+  - first:
+      213: -1904818792919484719
+    second: Alucard_67
+  - first:
+      213: -791850742465639342
+    second: Alucard_68
+  - first:
+      213: 4637749192429319280
+    second: Alucard_69
+  - first:
+      213: -4500925888706629496
+    second: Alucard_70
+  - first:
+      213: 4339262689294745292
+    second: Alucard_71
+  - first:
+      213: -8290383505814789658
+    second: Alucard_72
+  - first:
+      213: -7235810589715518370
+    second: Alucard_73
+  - first:
+      213: 1233334094910380437
+    second: Alucard_74
+  - first:
+      213: -7115849595121991962
+    second: Alucard_75
+  - first:
+      213: 72093853984611017
+    second: Alucard_76
+  - first:
+      213: -8720300175701466504
+    second: Alucard_77
+  - first:
+      213: -2156706217303404096
+    second: Alucard_78
+  - first:
+      213: -1216441395597015981
+    second: Alucard_79
+  - first:
+      213: -2557883648577339793
+    second: Alucard_80
+  - first:
+      213: 9142374761154110476
+    second: Alucard_81
+  - first:
+      213: 1049684059143177918
+    second: Alucard_82
+  - first:
+      213: 8594606743936550947
+    second: Alucard_83
+  - first:
+      213: -5787712226980918213
+    second: Alucard_84
+  - first:
+      213: 1209091830923027506
+    second: Alucard_85
+  - first:
+      213: 8673627966107746026
+    second: Alucard_86
+  - first:
+      213: -4684818092216381107
+    second: Alucard_87
+  - first:
+      213: 8949631464914626049
+    second: Alucard_88
+  - first:
+      213: 4060983938835607469
+    second: Alucard_89
+  - first:
+      213: 1880823515382179072
+    second: Alucard_90
+  - first:
+      213: 3594220709732760263
+    second: Alucard_91
+  - first:
+      213: -365461107061965720
+    second: Alucard_92
+  - first:
+      213: 7414598845121666197
+    second: Alucard_93
+  - first:
+      213: 6947237918557640857
+    second: Alucard_94
+  - first:
+      213: 2758044840176687416
+    second: Alucard_95
+  - first:
+      213: -8112167294235591150
+    second: Alucard_96
+  - first:
+      213: -7825628897965133973
+    second: Alucard_97
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 62
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alucard_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89af9333c0fa73330800000000000000
+      internalID: 3690610886587316888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2466c2be0f5d4b7a0800000000000000
+      internalID: -6362225142853245374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed69cba7d5088800800000000000000
+      internalID: 614747772994285038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc922b7fc4dcba4c0800000000000000
+      internalID: -4275097690801296947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5d1f50b64844860800000000000000
+      internalID: 7513275673556932018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d483e5948b1b5370800000000000000
+      internalID: 8312267793506731222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_6
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480f06521e209a790800000000000000
+      internalID: -7518474936900325244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48990e04b03f910c0800000000000000
+      internalID: -4604381914350970492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_8
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c823b04606e8770800000000000000
+      internalID: 8614929120007195707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_9
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fac018caaa9af300800000000000000
+      internalID: 286711584583109368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_10
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2135d7e9ef46d81c0800000000000000
+      internalID: -4499829407929773294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_11
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bee494648e73f80800000000000000
+      internalID: -8126771613991507124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_12
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae88e4341d7921b0800000000000000
+      internalID: -5680871929210696025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_13
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416f2fee6ce1deb00800000000000000
+      internalID: 859376943658890772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_14
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb65f109b777ed20800000000000000
+      internalID: 3307744087812434908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_15
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 450
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7102aba49ac916790800000000000000
+      internalID: -7538572050324381673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8588efddeacd8b670800000000000000
+      internalID: 8554830135797123160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_17
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66733d8468034290800000000000000
+      internalID: -7907467292773747091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_18
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e74ebb627077c70800000000000000
+      internalID: 8968645045874097776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_19
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745928783d74e3ca0800000000000000
+      internalID: -6035307476792732345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_20
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2274d6454673f7d00800000000000000
+      internalID: 972556948588021538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_21
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cadf23410a96820800000000000000
+      internalID: 2912034642687011980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_22
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765994c58b2986750800000000000000
+      internalID: 6298445399397602663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_23
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5525c6887e5f2390800000000000000
+      internalID: -7840944554478590630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_24
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3da7fda70390050800000000000000
+      internalID: 5767194102118142902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_25
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e470bb037bbb280800000000000000
+      internalID: -9026419608209895829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_26
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c955933ee0361e50800000000000000
+      internalID: 6779660088678635975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_27
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb356c0f9e23b430800000000000000
+      internalID: 3797430171446098872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_28
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f1d6c48b47dda20800000000000000
+      internalID: 3088753254351052557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_29
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28ff6a18e1cb6c10800000000000000
+      internalID: 2047943658190141483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_30
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fc9e52caa33e410800000000000000
+      internalID: 1505111211516743443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_31
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 388
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4565db19941e1770800000000000000
+      internalID: 8583320587644265804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d83e6cec9021cfb0800000000000000
+      internalID: -4629383083606525735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_33
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d361379cbb9c1420800000000000000
+      internalID: 2602125919006057427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_34
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e10045b48d5b4c0800000000000000
+      internalID: -4272270853447606690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_35
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974b19f3550a7d8c0800000000000000
+      internalID: -3974531858131995527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_36
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dca838fa4c0faa40800000000000000
+      internalID: 5381533595862609106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_37
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cf396d1f9f090b0800000000000000
+      internalID: -5723800309305443201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_38
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3963fb8e96edd1f90800000000000000
+      internalID: -6981179300896622957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_39
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd25d83835c9e46f0800000000000000
+      internalID: -698449009692552484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_40
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd655b55703dc350800000000000000
+      internalID: 6038535955975335348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_41
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ff2bcf19857e010800000000000000
+      internalID: 1218039608260099977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_42
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acee52f59791eae90800000000000000
+      internalID: -7012639560691224886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_43
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad11fd99c0484800800000000000000
+      internalID: 596798185309019557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_44
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b485e57ea12dd59a0800000000000000
+      internalID: -6242602495472936885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_45
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838a6570c540ec900800000000000000
+      internalID: 706506984850368568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_46
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcdcc2bfbfc971a0800000000000000
+      internalID: -6811184539175691017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_47
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 326
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40a5ed4ae481a3a0800000000000000
+      internalID: -6655892632412774322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c16a1b844a2d3620800000000000000
+      internalID: 2755405020900516294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_49
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898766885059e6d20800000000000000
+      internalID: 3273717830140721304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_50
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059bf9099d40b6380800000000000000
+      internalID: -8977076099752150704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_51
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f3ba21286a6c710800000000000000
+      internalID: 1713239785850224405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_52
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec02217f2b415820800000000000000
+      internalID: 2905185901764283617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_53
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e323fbdf51dc940800000000000000
+      internalID: 5317930914573073928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_54
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d4b231dc29d0080800000000000000
+      internalID: -9219551452669981292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_55
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca1af730cedac4d0800000000000000
+      internalID: -3113431275219051831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_56
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a088f3819342200800000000000000
+      internalID: 154311063545317927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_57
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c76b3a9361ae0d50800000000000000
+      internalID: 6705474344362665923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_58
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a8a369529d32b80800000000000000
+      internalID: -8420648122795259281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_59
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124d0514c0e119fe0800000000000000
+      internalID: -1184132189037472735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_60
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05f5830235a29aa0800000000000000
+      internalID: -6155676106435988210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_61
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f878e71cf75b820800000000000000
+      internalID: 2933391201329975125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_62
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a88fdb5f4f4e6c90800000000000000
+      internalID: -7174709954092234591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_63
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 264
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ac3b6b68f04e190800000000000000
+      internalID: -7934199572254701010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd61e5a6f27a2b4e0800000000000000
+      internalID: -1967326265117632805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_65
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad709436a54d74b40800000000000000
+      internalID: 5424537760868927450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_66
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6011d9fbd58b4fd0800000000000000
+      internalID: -2356642800162762645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_67
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6bb866669b095e0800000000000000
+      internalID: -1904818792919484719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_68
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cc434f1f7c205f0800000000000000
+      internalID: -791850742465639342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_69
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074ba1491589c5040800000000000000
+      internalID: 4637749192429319280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_70
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880384b40cf7981c0800000000000000
+      internalID: -4500925888706629496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_71
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccef48eec68283c30800000000000000
+      internalID: 4339262689294745292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_72
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1e6243024a2fc80800000000000000
+      internalID: -8290383505814789658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_73
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c2ff90b9c359b90800000000000000
+      internalID: -7235810589715518370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_74
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599d28823dead1110800000000000000
+      internalID: 1233334094910380437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_75
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee75af9e7c6f3d90800000000000000
+      internalID: -7115849595121991962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_76
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cadd3d6af0200100800000000000000
+      internalID: 72093853984611017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_77
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872a98c31354bf680800000000000000
+      internalID: -8720300175701466504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_78
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c111c04f17d112e0800000000000000
+      internalID: -2156706217303404096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_79
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 202
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3540c55eef45e1fe0800000000000000
+      internalID: -1216441395597015981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e74c5bf52908cd0800000000000000
+      internalID: -2557883648577339793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_81
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04661a286d30ee70800000000000000
+      internalID: 9142374761154110476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_82
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb68e9f171a319e00800000000000000
+      internalID: 1049684059143177918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_83
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328c3842c4d264770800000000000000
+      internalID: 8594606743936550947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_84
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c0e98e46aedafa0800000000000000
+      internalID: -5787712226980918213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_85
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2346efa3d9e87c010800000000000000
+      internalID: 1209091830923027506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_86
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeefeb92eaaee5870800000000000000
+      internalID: 8673627966107746026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_87
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d419e1034ce2cfeb0800000000000000
+      internalID: -4684818092216381107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_88
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10625e0766a733c70800000000000000
+      internalID: 8949631464914626049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_89
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafecd850638b5830800000000000000
+      internalID: 4060983938835607469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_90
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0056e8fa5070a1a10800000000000000
+      internalID: 1880823515382179072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_91
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca39f741bc31e130800000000000000
+      internalID: 3594220709732760263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_92
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cb9563f0f9deaf0800000000000000
+      internalID: -365461107061965720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_93
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c9f7b8d52f5e660800000000000000
+      internalID: 7414598845121666197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_94
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99890c1341c896060800000000000000
+      internalID: 6947237918557640857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_95
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 140
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839945d5b2b864620800000000000000
+      internalID: 2758044840176687416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ebb8473dacb6f80800000000000000
+      internalID: -8112167294235591150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alucard_97
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 78
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fa1c0baf7c56390800000000000000
+      internalID: -7825628897965133973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
