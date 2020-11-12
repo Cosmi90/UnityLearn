@@ -86,7 +86,7 @@ public class PlayerController : MonoBehaviour
         {
             rigidbody2d.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
-        if (!isGrounded && lastPositionY > playerTransform.position.y)
+        if (!isGrounded && lastPositionY >= playerTransform.position.y)
         {
             animator.SetBool("JumpFall", true);
             animator.SetBool("JumpStart", false);
@@ -95,7 +95,20 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        // LEFT
+        // UP
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            if (isGrounded)
+            {
+                animator.SetBool("UseSimple", true);
+            }
+        }
+        else if (!Input.GetKey(KeyCode.UpArrow))
+        {
+            animator.SetBool("UseSimple", false);
+        }
+
+            // LEFT
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             if (isGrounded)
