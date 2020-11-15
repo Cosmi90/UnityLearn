@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
         {
             if (isGrounded)
             {
-                PAM.PlayAnimation("Alucard_Turn", true, true);
+                PAM.PlayAnimation("Alucard_Turn", true, true, true);
             }
             else
             {
@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
         // JUMP
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
-            //animator.SetBool("JumpStart", true);
+            PAM.PlayAnimation("Alucard_IdleJumpStart", true, true);
             rigidbody2d.velocity = Vector2.up * jumpVelocity;
         }
         if (rigidbody2d.velocity.y < 0)
@@ -93,17 +93,26 @@ public class PlayerController : MonoBehaviour
         }
 
         // UP
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
-            //PAM.PlayAnimation();
+            //PAM.PlayAnimation("Alucard_Use1", true, true, false, true);
+            PAM.PlayAnimation(new PlayAnimationInput
+            {
+                AnimationName = "Alucard_Use1",
+                RequireFullPlay = true,
+                InterruptCurrentAnimation = true,
+                PlayAnimationWhileKeyIsPressed = true
+            });
         }
+        if (Input.GetKeyUp(KeyCode.UpArrow))
+            PAM.StopAnimation("Alucard_Use1");
 
         // LEFT
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            if (isGrounded)
+            if (!isGrounded)
             {
-                //animator.SetBool("JumpFall", false);
+                PAM.PlayAnimation("Alucard_MoveJumpStart", true, false, false);
             }
             //animator.SetFloat("MoveSpeed", Mathf.Abs(moveSpeed));
 
@@ -115,9 +124,9 @@ public class PlayerController : MonoBehaviour
         // RIGHT
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            if (isGrounded)
+            if (!isGrounded)
             {
-                //animator.SetBool("JumpFall", false);
+                PAM.PlayAnimation("Alucard_MoveJumpStart", true);
             }
             //animator.SetFloat("MoveSpeed", Mathf.Abs(moveSpeed));
 

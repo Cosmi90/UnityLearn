@@ -4,39 +4,33 @@ using UnityEngine;
 
 public class PlayerAnimationManager : MonoBehaviour
 {
-    private Animator animator;
     private bool isPlayingAnimation;
+    private string animBaseLayer;
     private static IEnumerator animationCoroutine;
+    private Animator animator;
+    Dictionary<string, int> allAnimationStates = new Dictionary<string, int>();
 
-    const string animBaseLayer = "Base.";
-    int idleAnimHash = Animator.StringToHash(animBaseLayer + "Alucard_Idle_1");
-    int turnAnimHash = Animator.StringToHash(animBaseLayer + "Alucard_Turn");
-
-
-    private void Awake()
+    private void Start()
     {
         animator = transform.GetComponent<Animator>();
+        GetAllAnimationStates();
     }
 
-    private IEnumerator PlayAndWaitForAnim(Animator targetAnim, string stateName)
+    private IEnumerator PlayAndWaitForAnim(string stateName, bool playAnimationWhileKeyIsPressed)
     {
-        int animHash = 0;
-        if (stateName == "Alucard_Idle_1")
-            animHash = idleAnimHash;
-        else if (stateName == "Alucard_Turn")
-            animHash = turnAnimHash;
+        int animHash = allAnimationStates[stateName];
 
-        //targetAnim.Play(stateName);
-        targetAnim.CrossFadeInFixedTime(stateName, 0);
+        //targetAnim.Play(stateName); // not working with this method
+        animator.CrossFadeInFixedTime(stateName, 0);
 
         //Wait until we enter the current state
-        while (targetAnim.GetCurrentAnimatorStateInfo(0).fullPathHash != animHash)
+        while (animator.GetCurrentAnimatorStateInfo(0).fullPathHash != animHash)
         {
             yield return null;
         }
 
         float counter = 0;
-        float waitTime = targetAnim.GetCurrentAnimatorStateInfo(0).length;
+        float waitTime = animator.GetCurrentAnimatorStateInfo(0).length;
 
         //Now, Wait until the current state is done playing
         while (counter <= (waitTime))
@@ -45,58 +39,102 @@ public class PlayerAnimationManager : MonoBehaviour
             yield return null;
         }
 
+        while (playAnimationWhileKeyIsPressed)
+        {
+            yield return null;
+        }
+
         //Done playing. Do something below!
-        Debug.Log("Done Playing");
         isPlayingAnimation = false;
     }
 
-    //private IEnumerator PlayCoroutine(string animationName, float toWait)
-    //{
-    //    int animHash = 0;
-    //    if (animationName == "Alucard_Idle_1")
-    //        animHash = idleAnimHash;
-    //    else if (animationName == "Alucard_Turn")
-    //        animHash = turnAnimHash;
-
-    //    if (animHash != animator.GetCurrentAnimatorStateInfo(0).fullPathHash)
-    //    {
-    //        Debug.Log("sas");
-    //        isPlayingAnimation = true;
-    //        animator.Play(animationName);
-
-    //        yield return new WaitForSeconds(toWait);
-    //    }
-    //    else
-    //    {
-    //        yield return null;
-    //    }
-    //}
-
-    //public void Play(string animationName, float length)
-    //{
-    //    StartCoroutine(PlayCoroutine(animationName, length));
-    //}
-
-    public void PlayAnimation(string animationName, bool requireFullPlay, bool interruptCurrentAnimation = false)
+    public void PlayAnimation(string animationName, bool requireFullPlay, bool interruptCurrentAnimation = false, bool selfIntrerrupt = false, bool playAnimationWhileKeyIsPressed = false)
     {
+        if (IsPlayingSameAnimation(animationName) && !selfIntrerrupt)
+        {
+            return;
+        }
+
         if (requireFullPlay)
         {
             isPlayingAnimation = true;
-            //animator.Play("Base." + animationName, 0, 0);
 
             if (interruptCurrentAnimation && animationCoroutine != null)
             {
                 StopCoroutine(animationCoroutine);
             }
 
-            animationCoroutine = PlayAndWaitForAnim(animator, animationName);
+            animationCoroutine = PlayAndWaitForAnim(animationName, playAnimationWhileKeyIsPressed);
             StartCoroutine(animationCoroutine);
+        }
+        else if (!isPlayingAnimation)
+            animator.Play(animBaseLayer + animationName, 0);
+    }
+
+    public void PlayAnimation(PlayAnimationInput input)
+    {
+        if (IsPlayingSameAnimation(input.AnimationName) && !input.SelfIntrerrupt)
+        {
+            return;
+        }
+
+        if (input.RequireFullPlay)
+        {
+            isPlayingAnimation = true;
+
+            if (input.InterruptCurrentAnimation && animationCoroutine != null)
+            {
+                StopCoroutine(animationCoroutine);
+            }
+
+            animationCoroutine = PlayAndWaitForAnim(input.AnimationName, input.PlayAnimationWhileKeyIsPressed);
+            StartCoroutine(animationCoroutine);
+        }
+        else if (!isPlayingAnimation)
+            animator.Play(animBaseLayer + input.AnimationName, 0);
+    }
+
+    public void StopAnimation(string animationName)
+    {
+        if (animator.GetCurrentAnimatorStateInfo(0).fullPathHash == allAnimationStates[animationName])
+        {
+            StopCoroutine(animationCoroutine);
         }
         else
         {
-            if(!isPlayingAnimation)
-                animator.Play("Base." + animationName, 0);
+            Debug.LogError("Animation " + animationName + " is not currently playing!");
+            return;
         }
-        Debug.Log($"Playing animation: {animationName}");
+
+        isPlayingAnimation = false;
     }
+
+    private bool IsPlayingSameAnimation(string animationName)
+    {
+        int animHash = allAnimationStates[animationName];
+
+        return animator.GetCurrentAnimatorStateInfo(0).fullPathHash == animHash;
+    }
+
+    private void GetAllAnimationStates()
+    {
+        if (animator.layerCount > 1)
+            Debug.LogError("Animator has multiple layers! The PlayerAnimationManager script works with only one layer");
+        else
+            animBaseLayer = animator.GetLayerName(0) + ".";
+
+        foreach (AnimationClip ac in animator.runtimeAnimatorController.animationClips)
+        {
+            allAnimationStates[ac.name] = Animator.StringToHash(animBaseLayer + ac.name);
+        }
+    }
+}
+
+public class PlayAnimationInput
+{
+    public string AnimationName { get; set; }
+    public bool RequireFullPlay { get; set; }
+    public bool InterruptCurrentAnimation { get; set; }
+    public bool SelfIntrerrupt { get; set; }
+    public bool PlayAnimationWhileKeyIsPressed { get; set; }
 }
