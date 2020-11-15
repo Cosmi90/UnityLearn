@@ -6,8 +6,7 @@ public class PlayerController : MonoBehaviour
     private Transform playerTransform;
     private Rigidbody2D rigidbody2d;
     private BoxCollider2D boxCollider2d;
-    private SpriteRenderer spriteRenderer;
-    private Animator animator;
+    private PlayerAnimationManager PAM;
     private float lastPositionY;
 
     public float jumpVelocity;
@@ -22,8 +21,7 @@ public class PlayerController : MonoBehaviour
         playerTransform = transform.GetComponent<Transform>();
         rigidbody2d = transform.GetComponent<Rigidbody2D>();
         boxCollider2d = transform.GetComponent<BoxCollider2D>();
-        spriteRenderer = transform.GetComponent<SpriteRenderer>();
-        animator = transform.GetComponent<Animator>();
+        PAM = transform.GetComponent<PlayerAnimationManager>();
     }
 
     // Start is called before the first frame update
@@ -45,7 +43,7 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D raycastHit2d = Physics2D.BoxCast(boxCollider2d.bounds.center, boxCollider2d.bounds.size, 0f, Vector2.down, .1f, platformsLayerMask);
 
         bool isGrounded = raycastHit2d.collider != null;
-        animator.SetBool("OnGround", isGrounded);
+        //animator.SetBool("OnGround", isGrounded);
         return isGrounded;
     }
 
@@ -55,11 +53,11 @@ public class PlayerController : MonoBehaviour
         {
             if (isGrounded)
             {
-                animator.SetTrigger("Turn");
+                PAM.PlayAnimation("Alucard_Turn", true, true);
             }
             else
             {
-                animator.SetBool("TurnWhileJump", true);
+                //animator.SetBool("TurnWhileJump", true);
             }
             facingRight = !facingRight;
             Vector3 scale = transform.localScale;
@@ -75,7 +73,7 @@ public class PlayerController : MonoBehaviour
         // JUMP
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
-            animator.SetBool("JumpStart", true);
+            //animator.SetBool("JumpStart", true);
             rigidbody2d.velocity = Vector2.up * jumpVelocity;
         }
         if (rigidbody2d.velocity.y < 0)
@@ -86,36 +84,28 @@ public class PlayerController : MonoBehaviour
         {
             rigidbody2d.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
-        if (!isGrounded && lastPositionY >= playerTransform.position.y)
+        if (!isGrounded && lastPositionY > playerTransform.position.y)
         {
-            animator.SetBool("JumpFall", true);
-            animator.SetBool("JumpStart", false);
+            //animator.SetBool("JumpFall", true);
+            //animator.SetBool("JumpStart", false);
 
-            if (Input.GetKey(KeyCode.Space)) { animator.SetBool("LongStraightJump", true); }
-
+            //if (Input.GetKey(KeyCode.Space)) animator.SetBool("LongStraightJump", true);
         }
 
         // UP
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            if (isGrounded)
-            {
-                animator.SetBool("UseSimple", true);
-            }
-        }
-        else if (!Input.GetKey(KeyCode.UpArrow))
-        {
-            animator.SetBool("UseSimple", false);
+            //PAM.PlayAnimation();
         }
 
-            // LEFT
+        // LEFT
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             if (isGrounded)
             {
-                animator.SetBool("JumpFall", false);
+                //animator.SetBool("JumpFall", false);
             }
-            animator.SetFloat("MoveSpeed", Mathf.Abs(moveSpeed));
+            //animator.SetFloat("MoveSpeed", Mathf.Abs(moveSpeed));
 
             FlipPlayer(-moveSpeed, isGrounded);
 
@@ -127,9 +117,9 @@ public class PlayerController : MonoBehaviour
         {
             if (isGrounded)
             {
-                animator.SetBool("JumpFall", false);
+                //animator.SetBool("JumpFall", false);
             }
-            animator.SetFloat("MoveSpeed", Mathf.Abs(moveSpeed));
+            //animator.SetFloat("MoveSpeed", Mathf.Abs(moveSpeed));
 
             FlipPlayer(+moveSpeed, isGrounded);
 
@@ -139,11 +129,12 @@ public class PlayerController : MonoBehaviour
         // No keys pressed
         else if (isGrounded)
         {
-            animator.SetFloat("MoveSpeed", 0);
-            animator.SetBool("JumpFall", false);
-            animator.SetBool("LongStraightJump", false);
-            animator.SetBool("TurnWhileJump", false);
-
+            //animator.SetFloat("MoveSpeed", 0);
+            //animator.SetBool("JumpFall", false);
+            //animator.SetBool("LongStraightJump", false);
+            //animator.SetBool("TurnWhileJump", false);
+            PAM.PlayAnimation("Alucard_Idle_1", false);
+            
             rigidbody2d.velocity = new Vector2(0, rigidbody2d.velocity.y);
         }
     }
