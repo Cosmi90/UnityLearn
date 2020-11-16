@@ -53,7 +53,13 @@ public class PlayerController : MonoBehaviour
         {
             if (isGrounded)
             {
-                PAM.PlayAnimation("Alucard_Turn", true, true, true);
+                PAM.PlayAnimation(new PlayAnimationInput
+                {
+                    AnimationName = "Alucard_Turn",
+                    RequireFullPlay = true,
+                    InterruptCurrentAnimation = true,
+                    SelfIntrerrupt = true
+                });
             }
             else
             {
@@ -73,7 +79,12 @@ public class PlayerController : MonoBehaviour
         // JUMP
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
-            PAM.PlayAnimation("Alucard_IdleJumpStart", true, true);
+            PAM.PlayAnimation(new PlayAnimationInput
+            {
+                AnimationName = "Alucard_IdleJumpStart",
+                RequireFullPlay = true,
+                InterruptCurrentAnimation = true
+            });
             rigidbody2d.velocity = Vector2.up * jumpVelocity;
         }
         if (rigidbody2d.velocity.y < 0)
@@ -112,7 +123,12 @@ public class PlayerController : MonoBehaviour
         {
             if (!isGrounded)
             {
-                PAM.PlayAnimation("Alucard_MoveJumpStart", true, false, false);
+                PAM.PlayAnimation(new PlayAnimationInput
+                {
+                    AnimationName = "Alucard_MoveJumpStart",
+                    RequireFullPlay = true,
+                    PlayAnimationWhileKeyIsPressed = true
+                });
             }
             //animator.SetFloat("MoveSpeed", Mathf.Abs(moveSpeed));
 
@@ -126,9 +142,19 @@ public class PlayerController : MonoBehaviour
         {
             if (!isGrounded)
             {
-                PAM.PlayAnimation("Alucard_MoveJumpStart", true);
+                PAM.PlayAnimation(new PlayAnimationInput
+                {
+                    AnimationName = "Alucard_MoveJumpStart",
+                    RequireFullPlay = true,
+                    PlayAnimationWhileKeyIsPressed = true
+                });
             }
-            //animator.SetFloat("MoveSpeed", Mathf.Abs(moveSpeed));
+            PAM.PlayAnimation(new PlayAnimationInput
+            {
+                AnimationName = "Alucard_StartRun1",
+                InterruptCurrentAnimation = true,
+                PlayAnimationWhileKeyIsPressed = true
+            });
 
             FlipPlayer(+moveSpeed, isGrounded);
 
@@ -142,8 +168,11 @@ public class PlayerController : MonoBehaviour
             //animator.SetBool("JumpFall", false);
             //animator.SetBool("LongStraightJump", false);
             //animator.SetBool("TurnWhileJump", false);
-            PAM.PlayAnimation("Alucard_Idle_1", false);
-            
+            PAM.PlayAnimation(new PlayAnimationInput
+            {
+                AnimationName = "Alucard_Idle_1"
+            });
+
             rigidbody2d.velocity = new Vector2(0, rigidbody2d.velocity.y);
         }
     }

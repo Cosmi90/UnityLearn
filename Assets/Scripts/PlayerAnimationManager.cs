@@ -48,29 +48,6 @@ public class PlayerAnimationManager : MonoBehaviour
         isPlayingAnimation = false;
     }
 
-    public void PlayAnimation(string animationName, bool requireFullPlay, bool interruptCurrentAnimation = false, bool selfIntrerrupt = false, bool playAnimationWhileKeyIsPressed = false)
-    {
-        if (IsPlayingSameAnimation(animationName) && !selfIntrerrupt)
-        {
-            return;
-        }
-
-        if (requireFullPlay)
-        {
-            isPlayingAnimation = true;
-
-            if (interruptCurrentAnimation && animationCoroutine != null)
-            {
-                StopCoroutine(animationCoroutine);
-            }
-
-            animationCoroutine = PlayAndWaitForAnim(animationName, playAnimationWhileKeyIsPressed);
-            StartCoroutine(animationCoroutine);
-        }
-        else if (!isPlayingAnimation)
-            animator.Play(animBaseLayer + animationName, 0);
-    }
-
     public void PlayAnimation(PlayAnimationInput input)
     {
         if (IsPlayingSameAnimation(input.AnimationName) && !input.SelfIntrerrupt)
