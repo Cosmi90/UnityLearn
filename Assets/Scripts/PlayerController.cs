@@ -6,7 +6,8 @@ public class PlayerController : MonoBehaviour
     private Transform playerTransform;
     private Rigidbody2D rigidbody2d;
     private BoxCollider2D boxCollider2d;
-    private PlayerAnimationManager PAM;
+    private SpriteRenderer spriteRenderer;
+    private Animator animator;
     private float lastPositionY;
 
     public float jumpVelocity;
@@ -14,14 +15,15 @@ public class PlayerController : MonoBehaviour
     public float lowJumpMultiplier;
     public float moveSpeed;
     public bool facingRight;
-    
+
 
     void Awake()
     {
         playerTransform = transform.GetComponent<Transform>();
         rigidbody2d = transform.GetComponent<Rigidbody2D>();
         boxCollider2d = transform.GetComponent<BoxCollider2D>();
-        PAM = transform.GetComponent<PlayerAnimationManager>();
+        spriteRenderer = transform.GetComponent<SpriteRenderer>();
+        animator = transform.GetComponent<Animator>();
     }
 
     // Start is called before the first frame update
@@ -43,7 +45,7 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D raycastHit2d = Physics2D.BoxCast(boxCollider2d.bounds.center, boxCollider2d.bounds.size, 0f, Vector2.down, .1f, platformsLayerMask);
 
         bool isGrounded = raycastHit2d.collider != null;
-        //animator.SetBool("OnGround", isGrounded);
+        animator.SetBool("OnGround", isGrounded);
         return isGrounded;
     }
 
@@ -53,17 +55,11 @@ public class PlayerController : MonoBehaviour
         {
             if (isGrounded)
             {
-                PAM.PlayAnimation(new PlayAnimationInput
-                {
-                    AnimationName = "Alucard_Turn",
-                    RequireFullPlay = true,
-                    InterruptCurrentAnimation = true,
-                    SelfIntrerrupt = true
-                });
+                animator.SetTrigger("Turn");
             }
             else
             {
-                //animator.SetBool("TurnWhileJump", true);
+                animator.SetBool("TurnWhileJump", true);
             }
             facingRight = !facingRight;
             Vector3 scale = transform.localScale;
@@ -79,12 +75,7 @@ public class PlayerController : MonoBehaviour
         // JUMP
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
-            PAM.PlayAnimation(new PlayAnimationInput
-            {
-                AnimationName = "Alucard_IdleJumpStart",
-                RequireFullPlay = true,
-                InterruptCurrentAnimation = true
-            });
+            animator.SetBool("JumpStart", true);
             rigidbody2d.velocity = Vector2.up * jumpVelocity;
         }
         if (rigidbody2d.velocity.y < 0)
@@ -95,42 +86,36 @@ public class PlayerController : MonoBehaviour
         {
             rigidbody2d.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
-        if (!isGrounded && lastPositionY > playerTransform.position.y)
+        if (!isGrounded && lastPositionY >= playerTransform.position.y)
         {
-            //animator.SetBool("JumpFall", true);
-            //animator.SetBool("JumpStart", false);
+            animator.SetBool("JumpFall", true);
+            animator.SetBool("JumpStart", false);
 
-            //if (Input.GetKey(KeyCode.Space)) animator.SetBool("LongStraightJump", true);
+            if (Input.GetKey(KeyCode.Space)) { animator.SetBool("LongStraightJump", true); }
+
         }
 
         // UP
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            //PAM.PlayAnimation("Alucard_Use1", true, true, false, true);
-            PAM.PlayAnimation(new PlayAnimationInput
+            if (isGrounded)
             {
-                AnimationName = "Alucard_Use1",
-                RequireFullPlay = true,
-                InterruptCurrentAnimation = true,
-                PlayAnimationWhileKeyIsPressed = true
-            });
+                animator.SetBool("UseSimple", true);
+            }
         }
-        if (Input.GetKeyUp(KeyCode.UpArrow))
-            PAM.StopAnimation("Alucard_Use1");
+        else if (!Input.GetKey(KeyCode.UpArrow))
+        {
+            animator.SetBool("UseSimple", false);
+        }
 
         // LEFT
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            if (!isGrounded)
+            if (isGrounded)
             {
-                PAM.PlayAnimation(new PlayAnimationInput
-                {
-                    AnimationName = "Alucard_MoveJumpStart",
-                    RequireFullPlay = true,
-                    PlayAnimationWhileKeyIsPressed = true
-                });
+                animator.SetBool("JumpFall", false);
             }
-            //animator.SetFloat("MoveSpeed", Mathf.Abs(moveSpeed));
+            animator.SetFloat("MoveSpeed", Mathf.Abs(moveSpeed));
 
             FlipPlayer(-moveSpeed, isGrounded);
 
@@ -140,21 +125,11 @@ public class PlayerController : MonoBehaviour
         // RIGHT
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            if (!isGrounded)
+            if (isGrounded)
             {
-                PAM.PlayAnimation(new PlayAnimationInput
-                {
-                    AnimationName = "Alucard_MoveJumpStart",
-                    RequireFullPlay = true,
-                    PlayAnimationWhileKeyIsPressed = true
-                });
+                animator.SetBool("JumpFall", false);
             }
-            PAM.PlayAnimation(new PlayAnimationInput
-            {
-                AnimationName = "Alucard_StartRun1",
-                InterruptCurrentAnimation = true,
-                PlayAnimationWhileKeyIsPressed = true
-            });
+            animator.SetFloat("MoveSpeed", Mathf.Abs(moveSpeed));
 
             FlipPlayer(+moveSpeed, isGrounded);
 
@@ -164,14 +139,10 @@ public class PlayerController : MonoBehaviour
         // No keys pressed
         else if (isGrounded)
         {
-            //animator.SetFloat("MoveSpeed", 0);
-            //animator.SetBool("JumpFall", false);
-            //animator.SetBool("LongStraightJump", false);
-            //animator.SetBool("TurnWhileJump", false);
-            PAM.PlayAnimation(new PlayAnimationInput
-            {
-                AnimationName = "Alucard_Idle_1"
-            });
+            animator.SetFloat("MoveSpeed", 0);
+            animator.SetBool("JumpFall", false);
+            animator.SetBool("LongStraightJump", false);
+            animator.SetBool("TurnWhileJump", false);
 
             rigidbody2d.velocity = new Vector2(0, rigidbody2d.velocity.y);
         }
