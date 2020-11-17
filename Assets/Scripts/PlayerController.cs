@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Application.targetFrameRate = 60; // to be removed from here
+
     }
 
     // Update is called once per frame
@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
 
         bool isGrounded = raycastHit2d.collider != null;
         animator.SetBool("OnGround", isGrounded);
+
         return isGrounded;
     }
 
@@ -86,13 +87,13 @@ public class PlayerController : MonoBehaviour
         {
             rigidbody2d.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
-        if (!isGrounded && lastPositionY >= playerTransform.position.y)
+        if ((!isGrounded && lastPositionY > playerTransform.position.y))
         {
             animator.SetBool("JumpFall", true);
             animator.SetBool("JumpStart", false);
 
-            if (Input.GetKey(KeyCode.Space)) { animator.SetBool("LongStraightJump", true); }
-
+            if (Input.GetKey(KeyCode.Space))
+                animator.SetBool("LongStraightJump", true);
         }
 
         // UP
@@ -106,6 +107,16 @@ public class PlayerController : MonoBehaviour
         else if (!Input.GetKey(KeyCode.UpArrow))
         {
             animator.SetBool("UseSimple", false);
+        }
+
+        // DOWN
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+                animator.SetBool("IsDucked", true);
+        }
+        else if (!Input.GetKey(KeyCode.DownArrow))
+        {
+            animator.SetBool("IsDucked", false);
         }
 
         // LEFT
@@ -140,11 +151,20 @@ public class PlayerController : MonoBehaviour
         else if (isGrounded)
         {
             animator.SetFloat("MoveSpeed", 0);
-            animator.SetBool("JumpFall", false);
+            animator.SetBool("JumpFall", false); // -- CHECK THE IsGrounded Method for MORE INFO !!! -- FIND BETTER PLACE TO PUS ALL OF THESE animator.Set*
             animator.SetBool("LongStraightJump", false);
             animator.SetBool("TurnWhileJump", false);
 
             rigidbody2d.velocity = new Vector2(0, rigidbody2d.velocity.y);
         }
+
+        //if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1 && animator.GetCurrentAnimatorStateInfo(0).IsName("Alucard_MoveJumpStart"))
+        //{
+        //    animator.SetBool("JumpFall", true);
+        //    animator.SetBool("JumpStart", false);
+
+        //    if (Input.GetKey(KeyCode.Space))
+        //        animator.SetBool("LongStraightJump", true);
+        //}
     }
 }

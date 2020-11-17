@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAnimationManager : MonoBehaviour
+public class AnimationManager : MonoBehaviour
 {
     private bool isPlayingAnimation;
     private string animBaseLayer;
