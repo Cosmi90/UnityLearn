@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -8,14 +10,20 @@ public class PlayerController : MonoBehaviour
     private BoxCollider2D boxCollider2d;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
+    
+    public GameObject player;
+    private GameObject weapon;
+     
     private float lastPositionY;
+    private int direction;
 
     public float jumpVelocity;
+    public float backdashVelocity;
+    public float backdashTime;
     public float fallMultiplier;
     public float lowJumpMultiplier;
     public float moveSpeed;
     public bool facingRight;
-
 
     void Awake()
     {
@@ -24,18 +32,21 @@ public class PlayerController : MonoBehaviour
         boxCollider2d = transform.GetComponent<BoxCollider2D>();
         spriteRenderer = transform.GetComponent<SpriteRenderer>();
         animator = transform.GetComponent<Animator>();
+        player = transform.GetComponent<GameObject>();
+        weapon = GameObject.Find("Weapon");
     }
 
     // Start is called before the first frame update
     void Start()
     {
-
+        weapon.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
         HandleMovement();
+        HandleAttack();
 
         lastPositionY = playerTransform.position.y;
     }
@@ -66,6 +77,36 @@ public class PlayerController : MonoBehaviour
             Vector3 scale = transform.localScale;
             scale.x *= -1;
             transform.localScale = scale;
+        }
+    }
+
+    private IEnumerator HandleBackdash()
+    {
+        animator.SetTrigger("Backdash");
+
+        if (facingRight)
+        {
+            float initialBackdashTime = backdashTime;
+            while (backdashTime > 0)
+            {
+                rigidbody2d.velocity += new Vector2(-backdashVelocity, rigidbody2d.velocity.y);
+                backdashTime -= Time.deltaTime;
+
+                yield return null;
+            }
+            backdashTime = initialBackdashTime;
+        }
+        else
+        {
+            float initialBackdashTime = backdashTime;
+            while (backdashTime > 0)
+            {
+                rigidbody2d.velocity += new Vector2(+backdashVelocity, rigidbody2d.velocity.y);
+                backdashTime -= Time.deltaTime;
+
+                yield return null;
+            }
+            backdashTime = initialBackdashTime;
         }
     }
 
@@ -112,7 +153,12 @@ public class PlayerController : MonoBehaviour
         // DOWN
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-                animator.SetBool("IsDucked", true);
+            animator.SetBool("IsDucked", true);
+        }
+        else if (Input.GetKey(KeyCode.DownArrow))
+        {
+            if (Input.GetKeyDown(KeyCode.C))
+                animator.SetTrigger("DuckSwordAttack");
         }
         else if (!Input.GetKey(KeyCode.DownArrow))
         {
@@ -147,6 +193,12 @@ public class PlayerController : MonoBehaviour
             rigidbody2d.velocity = new Vector2(+moveSpeed, rigidbody2d.velocity.y);
         }
 
+        // DASH
+        else if (Input.GetKeyDown(KeyCode.X))
+        {
+            StartCoroutine(HandleBackdash());
+        }
+
         // No keys pressed
         else if (isGrounded)
         {
@@ -166,5 +218,15 @@ public class PlayerController : MonoBehaviour
         //    if (Input.GetKey(KeyCode.Space))
         //        animator.SetBool("LongStraightJump", true);
         //}
+    }
+
+    private void HandleAttack()
+    {
+        // Attack
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            weapon.SetActive(true);
+            animator.SetTrigger("StandingSwordAttack");
+        }
     }
 }
