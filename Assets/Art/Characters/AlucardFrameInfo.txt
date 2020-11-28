@@ -1,7 +1,0 @@
-idle_1: 	0 - 5
-idle_2: 	6 - 13
-idle_3: 	14 - 17
-startrun_1: 18 - 32
-runloop_1: 	33 - 48
-turning_1: 	49 - 58
-stop_1:		59 - 71

@@ -1,10 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+using System.Collections;
+using System.Collections.Generic;
+
+using SuperVania.Input;
+
+public class PlayerControllerOld : MonoBehaviour
 {
-    [SerializeField] private LayerMask platformsLayerMask;
+    [SerializeField]
+    private LayerMask platformsLayerMask;
+
     private Transform playerTransform;
     private Rigidbody2D rigidbody2d;
     private BoxCollider2D boxCollider2d;
@@ -25,6 +30,9 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     public bool facingRight;
 
+    private InputManager keys;
+    private List<KeyCode> pressedKeys;
+
     void Awake()
     {
         playerTransform = transform.GetComponent<Transform>();
@@ -34,6 +42,9 @@ public class PlayerController : MonoBehaviour
         animator = transform.GetComponent<Animator>();
         player = transform.GetComponent<GameObject>();
         weapon = GameObject.Find("Weapon");
+
+        keys = new InputManager();
+        List<KeyCode> pressedKeys = new List<KeyCode>();
     }
 
     // Start is called before the first frame update
@@ -45,6 +56,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        pressedKeys = keys.GetKeysPressed();
+
         HandleMovement();
         HandleAttack();
 
@@ -222,7 +235,7 @@ public class PlayerController : MonoBehaviour
 
     private void HandleAttack()
     {
-        // Attack
+        // Attack -- PROOF OF CONCEPT !! WORKING
         if (Input.GetKeyDown(KeyCode.C))
         {
             weapon.SetActive(true);
